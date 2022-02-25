@@ -1,38 +1,108 @@
-.App {
-  text-align: center;
+*,
+ ::after,
+ ::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    font-size: 25px;
+    font-family: monospace;
+    font-weight: 800;
+    color: bisque;
+    background-color: rgb(27, 30, 48);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#container {
+    width: 500px;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h1 {
+    width: 100%;
+    padding: 20px 0;
+    font-size: 3rem;
 }
 
-.App-link {
-  color: #61dafb;
+h3 {
+    width: 100%;
+    padding-top: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.element-div {
+    width: 50%;
+}
+
+.timer-div {
+    width: 60%;
+    border-radius: 15%;
+    border: 8px solid bisque;
+    margin: 0 auto;
+}
+
+.cmd-div {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 25px;
+}
+
+.timeLen {
+    margin: 0 10px;
+}
+
+.fa {
+    cursor: pointer;
+}
+
+#start_stop {
+    margin-right: 20px;
+    width: 40px;
+    display: flex;
+    cursor: pointer;
+}
+
+.stop-start-icon {
+    z-index: -1;
+}
+
+.time-left {
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+
+#by {
+    margin: 15px auto;
+    width: 350px;
+    text-align: center;
+    font-family: serif;
+    font-size: 0.75rem;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(185, 128, 62);
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 20px;
+    }
+    #container {
+        flex-direction: column;
+        width: 400px;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    .time-left {
+        font-size: 3rem;
+    }
 }
