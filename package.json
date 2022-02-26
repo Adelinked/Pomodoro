@@ -1,7 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "homepage": "https://Adelinked.github.io/react-25+5",
+  "homepage": "https://github.com/Adelinked/Js-calculator",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
@@ -44,6 +44,7 @@
   },
   "devDependencies": {
     "gh": "^2.8.9",
+    "gh-pages": "^3.2.3",
     "pages": "^0.0.16"
   }
 }
