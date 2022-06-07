@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Pomodoro/static/css/main.c0e12503.css",
+    "main.js": "/Pomodoro/static/js/main.92fc32fb.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Pomodoro/static/js/787.28cb0dcd.chunk.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/Pomodoro/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/Pomodoro/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/Pomodoro/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/Pomodoro/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/Pomodoro/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "index.html": "/Pomodoro/index.html",
+    "main.c0e12503.css.map": "/Pomodoro/static/css/main.c0e12503.css.map",
+    "main.92fc32fb.js.map": "/Pomodoro/static/js/main.92fc32fb.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Pomodoro/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c0e12503.css",
+    "static/js/main.92fc32fb.js"
+  ]
+}
